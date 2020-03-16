@@ -1,8 +1,12 @@
 # jsoni18n
 
+[![Build Status](https://travis-ci.org/Nekith/jsoni18n.svg?branch=master)](https://travis-ci.org/Nekith/jsoni18n)
+
 A flexible internationalization library working with JSON files in Haxe.
 
-[![Build Status](https://travis-ci.org/Nekith/jsoni18n.svg?branch=master)](https://travis-ci.org/Nekith/jsoni18n)
+* Does not assume the task of handling the origin/source of the translations (e.g. opening files).
+* Has nothing about date localization.
+* Was made with coded strings (`welcome/hello`) as translation key in mind, not phrases in a source language (`Hello!`).
 
 ## Installation
 
