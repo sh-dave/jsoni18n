@@ -6,7 +6,7 @@ A flexible internationalization library working with JSON files in Haxe.
 
 * Does not assume the task of handling the origin/source of the translations (e.g. opening files).
 * Has nothing about date localization.
-* Has been made with coded strings (`welcome/hello`) as translation key in mind, not phrases in a source language (`Hello!`).
+* Has been made with coded strings (`welcome/hello`) as translation key in mind, not sentences in a source language (`Hello!`).
 
 ## Installation
 
@@ -141,7 +141,6 @@ cd build
 
 Tested against:
 
+* 4.1.1
 * 4.0.5
-* 4.0.2
-* 4.0.0
 * 3.4.7
