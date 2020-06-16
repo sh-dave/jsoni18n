@@ -83,7 +83,7 @@ i18n.loadFromString(jsonFileContent);
 Now, to translate something:
 
 ```haxe
-var hello : String = i18n.tr("welcome/hello");
+var hello : String = i18n.tr("welcome/hello"); // Hoy!
 ```
 
 ### Prefix
